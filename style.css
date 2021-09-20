@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+#FFCE00
+sarga
+
+#1E95A9
+vilagos kek text
+#BDCCD4
+
+placeholder text */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #00263D;
+}
+
+#header {
+    position: fixed;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 80px;
+    border-bottom: 1px solid #FFCE00;
+}
+
+.header-subcontainer {
+    height: 100%;
+    
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-subcontainer a:link,
+.header-subcontainer a:visited{
+    
+    text-decoration: none;
+
+    text-transform: uppercase;
+    color: #FFCE00;
+    border-bottom: 1px solid #FFCE00;
+    letter-spacing: 4px;
+    font-size: 15px;
+    }
+
+.header-subcontainer:first-child {
+    border-right: 1px solid #FFCE00;
+}
+
+#menubtn {
+    text-transform: uppercase;
+    color: #FFCE00;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background: none;
+    border: none;   
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.a {
+    fill: #FFCE00;
+}
+
+#logo {
+    border: 1px solid red;
+    height: 118px;
+    
+    margin-bottom: -80px;
+
+    
+
+}
+
